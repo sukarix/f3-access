@@ -1,8 +1,12 @@
 {
-	"name": "xfra35/f3-access",
+	"name": "sukarix/f3-access",
 	"description": "Route access control for the PHP Fat-Free Framework",
-	"keywords": ["F3","fatfree","access control","permissions"],
-	"homepage": "https://github.com/xfra35/f3-access",
+	"keywords": ["F3","fatfree","acl","access control","permissions"],
+	"homepage": "https://github.com/sukarix/f3-access",
+	"support": {
+		"source": "https://github.com/sukarix/f3-access",
+		"issues": "https://github.com/sukarix/f3-access/issues"
+	},
 	"license": "GPL-3.0",
 	"autoload": {
 		"classmap": ["lib/"]
@@ -10,4 +14,8 @@
 	"require": {
 		"bcosca/fatfree-core": "3.*"
 	}
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
 }
